@@ -47,6 +47,20 @@ public class Caculator {
         displayJPanel.setLayout(new BorderLayout());
         displayJPanel.add(displayJLabel);
         frame.add(displayJLabel,BorderLayout.NORTH);
+<<<<<<< Updated upstream
+=======
+
+        buttonsPanel.setLayout(new GridLayout(5,4));
+        buttonsPanel.setBackground(customBlack);
+        frame.add(buttonsPanel);
+
+        for (int i = 0; i < buttonValues.length; i++) {
+            JButton button = new JButton();
+            String buttonValue = buttonValues[i];
+            button.setFont(new Font("Arail",Font.PLAIN, 30));
+            button.setText(buttonValue);
+        }
+>>>>>>> Stashed changes
     }
 
 }
