@@ -37,6 +37,10 @@ public class Caculator {
         displayJPanel.setLayout(new BorderLayout());
         displayJPanel.add(displayJLabel);
         frame.add(displayJLabel,BorderLayout.NORTH);
+
+        buttonsPanel.setLayout(new GridLayout(5,4));
+        buttonsPanel.setBackground(customBlack);
+        frame.add(buttonsPanel);
     }
 
 }
