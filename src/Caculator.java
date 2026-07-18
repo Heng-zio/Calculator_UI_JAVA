@@ -35,7 +35,7 @@ public class Caculator {
 
         displayJPanel.setLayout(new BorderLayout());
         displayJPanel.add(displayJLabel);
-        frame.add(displayJLabel);
+        frame.add(displayJLabel,BorderLayout.NORTH);
     }
 
 }
