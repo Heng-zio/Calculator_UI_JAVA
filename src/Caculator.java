@@ -47,8 +47,6 @@ public class Caculator {
         displayJPanel.setLayout(new BorderLayout());
         displayJPanel.add(displayJLabel);
         frame.add(displayJLabel,BorderLayout.NORTH);
-<<<<<<< Updated upstream
-=======
 
         buttonsPanel.setLayout(new GridLayout(5,4));
         buttonsPanel.setBackground(customBlack);
@@ -60,7 +58,6 @@ public class Caculator {
             button.setFont(new Font("Arail",Font.PLAIN, 30));
             button.setText(buttonValue);
         }
->>>>>>> Stashed changes
     }
 
 }
